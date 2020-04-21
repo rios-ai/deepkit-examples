@@ -1,0 +1,12 @@
+config:
+  batch_size: 32
+
+ignore:
+  - data
+  - checkpoint
+  - runs
+
+env:
+  - PYTHONPATH='pwd'
+
+command: /usr/bin/python3 train.py
